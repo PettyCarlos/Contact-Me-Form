@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Me Form</title>
+<meta charset="utf-8">
+<meta name="description" content="Contact Me Form">
+<style>
+* {
+  box-sizing:border-box;
+    }
+
+form {
+  padding: 1em;
+  background: #f9f9f9;
+  border: 1px solid black;
+  margin-top: 2rem;
+  max-width: 415px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  
+}
+form input {
+  margin-bottom: 1rem;
+  background: white;
+  border: 1px solid #9c9c9c;
+}
+label {
+  text-align: right;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+
+.myinput {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5em;
+}
+input:focus {
+  background-color: peru;
+}
+form div { text-align:center; }
+input[type="submit"], input[type="reset"] {
+  background: lightgray;
+  padding: 0.7em;
+  border: 0.5em;
+    }
+    
+
+h1 { text-align: center; font-style: italic; background-color: peru; }
+    
+   </style>
+
+    
+    
+    </head>
+
+    
+    
+    <body>
+<h1>Contact Me Form</h1>
+
+        <form class="form1" action="#" method="post">
+    
+       <label  for="fname" >Full Name</label>
+    <input type="text"  required name="Full Name" id="fname" size="50" maxlength="25">
+     
+      <label for="CustEmail">Email</label>
+    <input type="email"  required name="CustEmail" id="CustEmail" size="50" maxlength="25">
+            
+            <label> Comments: <br><textarea cols="45" rows="5" name="com"></textarea></label><br>
+           
+            
+            
+           
+     
+ <span class="focus"></span>
+
+
+        
+ 
+      
+      <div><input type="submit" value="Submit"> &nbsp; <input type="reset" value="Clear"></div>
+        </form>
+        
+    
+ 
+   
+  
+</body>
+</html>
