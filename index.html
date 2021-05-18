@@ -3,6 +3,7 @@
 <head>
 <title>Contact Me Form</title>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Contact Me Form">
 <style>
 * {
@@ -46,19 +47,64 @@ input[type="submit"], input[type="reset"] {
   border: 0.5em;
     }
     
-
+     #holygrail-container{display:grid; grid-template-columns: 190px 1fr 190px; background: peru; height: 100%; min-width: 400px; min-height: 270px;
+         }
+         
+         header,footer,nav { padding: 20px; border: 1px solid black; text-align: center;
+                           }
+         
+         header, footer {grid-column: span 3;
+                        }
+         
+         nav {display: inline; padding-bottom: 25px; display: flex; align-items: center;
+             }
+           
+            nav ul{list-style-type:none; padding:0; 
+                  }
+            
+            nav ul li{ display: inline-block;
+                       margin:0 5px;
+                       border:2px solid black;
+                      border-radius: 10px;
+                       margin-right: 350px;
+                       background-color: peru;
+                       text-align:center;
+                       width: 150px;
+                       height: 30px; 
+                       line-height:30px;
+                        margin-bottom: 5px;}
+            
+            nav ul li a {text-decoration: none; font-weight: bold; color:white;
+                        }
+         
+         ul li { list-style-type: none; 
+          }
+      
+     
 h1 { text-align: center; font-style: italic; background-color: peru; }
     
    </style>
 
-    
-    
-    </head>
-
-    
+     </head>
+   
     
     <body>
-<h1>Contact Me Form</h1>
+           <div id="holygrail-container">
+        <header>
+      <h1>Contact Me Form</h1>
+            </header>
+               
+                <nav>
+    <ul>
+            <li><a href="https://pettycarlos.github.io/homework1/">Home</a></li>
+            <li><a href="https://pettycarlos.github.io/Assignment/">Assignments</a></li>
+            <li><a href="https://pettycarlos.github.io/MeetupReport/">Meetup</a></li>
+            <li><a href="https://pettycarlos.github.io/Contact-Me-Form/">Contact</a></li>
+            
+        </ul>
+            </nav>
+               
+               <section>
 
         <form class="form1" action="#" method="post">
     
@@ -82,6 +128,19 @@ h1 { text-align: center; font-style: italic; background-color: peru; }
       
       <div><input type="submit" value="Submit"> &nbsp; <input type="reset" value="Clear"></div>
         </form>
+               </section>
+               
+               <footer> 
+  I can be contacted at the information provided in the footer part of this page or can fill out the form provided via the Contact link located in the Menu bar.
+       
+       
+           
+          <address>
+           <a href="hunterkeron@yahoo.com">hunterkeron@yahoo.com</a><br>
+           <a href="tel:+12512232113">(251) 223-2113</a>
+           </address>
+            </footer>
+        </div>
         
     
  
